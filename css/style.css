@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family:sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  background-color:rgb(82, 187, 163);
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 40%;
+  height: 300px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: rgb(181, 244, 206);
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
