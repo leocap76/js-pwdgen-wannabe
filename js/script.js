@@ -1,4 +1,4 @@
-var surname = prompt("Nome");
+var name = prompt("Nome");
 
 var surname = prompt("Cognome");
 
